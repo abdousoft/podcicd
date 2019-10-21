@@ -8,7 +8,7 @@ pipeline {
 
     environment {
         APP_NAME    = "podcicd"
-        GIT_REPO    = "https://github.com/williamcaban/podcicd.git"
+        GIT_REPO    = "https://github.com/abdousoft/podcicd.git"
         GIT_BRANCH  = "master"
         CONTEXT_DIR = "myapp"
 
