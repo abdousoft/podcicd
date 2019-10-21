@@ -12,7 +12,7 @@ pipeline {
         GIT_BRANCH  = "master"
         CONTEXT_DIR = "myapp"
 
-        CICD_PRJ    = "cicd"
+        CICD_PRJ    = "cicd2"
         CICD_DEV    = "${CICD_PRJ}"+"-dev"
         CICD_PROD   = "${CICD_PRJ}"+"-prod"
         CICD_STAGE  = "${CICD_PRJ}"+"-staging"
