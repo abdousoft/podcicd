@@ -108,7 +108,7 @@ pipeline {
                 } // steps
             } //stage-build
 
-            stage('Test') {
+            /*stage('Test') {
 
                 steps {
                     echo "Testing if 'Service' resource is operational and responding"
@@ -121,7 +121,7 @@ pipeline {
                     } // script
                 } // steps
             } //stage 
-            
+            */
             stage('Promote to Staging') {
                 steps {
                     echo "Setup for Staging"
